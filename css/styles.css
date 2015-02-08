@@ -1,0 +1,8 @@
+.limo-section {
+	float: left;
+}
+.group::after {
+	content: '';
+	display: table;
+	clear: both;
+}

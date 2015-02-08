@@ -1,0 +1,12 @@
+<div class="buttons  well">
+	<button class="btn btn-default" ng-click="addBlack(limo.shortName)">Add Black Section</button>		
+	<button class="btn btn-default" ng-click="addPurple(limo.shortName)">Add Purple Section</button>
+	<button class="btn btn-default" ng-click="addGreen(limo.shortName)">Add Green Section</button>	
+	<button class="btn btn-danger" ng-click="remove()">Remove Section</button>		
+</div>
+
+<div class="group">
+	<div limo-constructor="section in limoSections">
+		<img class="limo-section" ng-src="{{section}}">
+	</div>
+</div>
